@@ -1,0 +1,50 @@
+.banner {
+  position: relative;
+  height: 100vh;
+  border-bottom-right-radius: 80px;
+}
+.bannerImage {
+  border-bottom-left-radius: 15%;
+  object-fit: fill;
+}
+
+.innerBanner {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 50%;
+}
+
+.innerBanner h1 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 125%;
+  color: #292f36;
+}
+
+@media only screen and (max-width: 992px) {
+  .banner {
+    height: 100%;
+  }
+
+  .innerBanner {
+    left: 50%;
+    text-align: center;
+  }
+
+  .innerBanner h1 {
+    font-size: 30px;
+  }
+
+  .innerBanner button {
+    padding: 10px 20px;
+    margin: auto;
+  }
+
+  .bannerImage {
+    height: 400px;
+  }
+}

@@ -1,0 +1,33 @@
+.workItem {
+  text-align: center;
+  padding: 20px;
+}
+
+.workItem h3 {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+}
+
+.workItem a {
+  text-decoration: none;
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #4d5053;
+  padding: 20px;
+  display: inline-block;
+}
+
+.workItem a:hover {
+  color: #cda274 !important;
+  cursor: pointer;
+}
+
+.rightArrow {
+  padding-left: 10px;
+}

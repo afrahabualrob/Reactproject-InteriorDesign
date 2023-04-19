@@ -1,0 +1,16 @@
+.subHeader {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+@media only screen and (max-width: 769px) {
+  .subHeader {
+    font-size: 18px;
+  }
+}

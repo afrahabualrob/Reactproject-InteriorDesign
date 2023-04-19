@@ -1,0 +1,41 @@
+.topRightBorder {
+  border-top-right-radius: 15%;
+}
+
+.topLeftBorder {
+  border-top-left-radius: 15%;
+}
+
+.buttomRightBorder {
+  border-bottom-right-radius: 15%;
+}
+
+.buttomLeftBorder {
+  border-bottom-left-radius: 15%;
+}
+
+.projectName {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.peojectCategory {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.projectItem img {
+  width: 100%;
+  object-fit: contain;
+}

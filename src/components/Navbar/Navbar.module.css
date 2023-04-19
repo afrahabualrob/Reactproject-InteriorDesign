@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.searchIcon {
+margin: auto;
+}
+
+
+.items {
+  display: flex;
+  align-items: center;
+  align-items: baseline;
+}

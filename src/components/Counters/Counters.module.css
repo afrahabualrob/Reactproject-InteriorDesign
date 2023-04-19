@@ -1,0 +1,35 @@
+.countersSection {
+  background-color: #f4f0ec;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
+  margin: 100px 0;
+}
+
+.counterItem {
+  border-right: 1px solid #cda274;
+}
+
+.number {
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  letter-spacing: 0.02em;
+  color: #cda274;
+}
+
+
+
+@media only screen and (max-width: 899px) {
+  .countersSection {
+    margin: 50px 0;
+    padding: 50px 0;
+  }
+
+  .counterItem {
+    border-right: none;
+  }
+
+  .number {
+    font-size: 50px;
+  }
+}

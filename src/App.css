@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "jost";
+    src: url(../public/assets/fonts/webfontkit-20230330-080539/jost-variablefont_wght-webfont.woff);
+  }
+
+  @font-face {
+    font-family: DM Serif Display;
+    src: url(../public/assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+  }

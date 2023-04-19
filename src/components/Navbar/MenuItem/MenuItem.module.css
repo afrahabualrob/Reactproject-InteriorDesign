@@ -1,0 +1,15 @@
+.menuItem {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #292f36;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  color: #cda274;
+}

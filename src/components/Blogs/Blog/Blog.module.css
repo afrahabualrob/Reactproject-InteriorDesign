@@ -1,0 +1,68 @@
+.blog h5 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+  margin-top: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date {
+  white-space: nowrap;
+}
+
+.blog span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #4d5053;
+}
+
+.blog2, .blog1 {
+  border: 2px solid #e7e7e7;
+  border-radius: 62px;
+  padding: 20px;
+}
+
+.blog1{
+  background: #f4f0ec;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.25);
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 62px;
+  border-top-left-radius: 62px;
+}
+
+.qoute {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  background: #ffffff;
+  border-radius: 8px 8px 8px 0px;
+  padding: 5px;
+}
+
