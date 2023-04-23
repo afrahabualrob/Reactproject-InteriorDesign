@@ -25,7 +25,7 @@ const Counters = () => {
                 item
                 xs={6}
                 md={3}
-                className={id == 4 ? "lastCounterItem": "counterItem"}
+                className={id %4===0 ? "lastCounterItem": "counterItem"}
               >
                 <span className={styles.number}>{number}</span>
                 {/* <p className={styles.caption}>{caption}</p> */}

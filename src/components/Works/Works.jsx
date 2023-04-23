@@ -32,8 +32,8 @@ const Works = () => {
           {worksItems.map((workItem) => {
             const { id, title, description } = workItem;
             return (
-              <Grid item md={4}>
-                <WorkItem key={id} title={title} description={description} />
+              <Grid item md={4} key={id}>
+                <WorkItem title={title} description={description} />
               </Grid>
             );
           })}

@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
             <div className={styles.socialMedia}>
               {footerIcons.map((imgSrc) => (
-                <img src={imgSrc} />
+                <img key={imgSrc} src={imgSrc} />
               ))}
             </div>
           </div>

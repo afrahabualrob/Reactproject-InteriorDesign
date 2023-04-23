@@ -31,6 +31,7 @@ const Blogs = () => {
       qoute: "Interior Design",
     },
   ];
+
   return (
     <Container>
       <Container>
@@ -47,9 +48,8 @@ const Blogs = () => {
         {blogs.map((blog) => {
           const { id, imgSrc, name, qoute, date } = blog;
           return (
-            <Grid item md={4}>
+            <Grid item md={4} key={id}>
               <Blog
-                key={id}
                 BlogImage={imgSrc}
                 BlogName={name}
                 BlogDate={date}

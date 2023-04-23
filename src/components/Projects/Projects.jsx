@@ -54,9 +54,8 @@ const Projects = () => {
           {projects.map((project) => {
             const { id, imgSrc, name, category, projectClassName } = project;
             return (
-              <Grid item md={6}>
+              <Grid item md={6} key={id}>
                 <ProjectItem
-                  key={id}
                   projectImg={imgSrc}
                   projectName={name}
                   projectCategory={category}
