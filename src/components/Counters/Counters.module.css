@@ -9,7 +9,8 @@
 .counterItem {
   border-right: 1px solid #cda274;
 }
-.lastCounterItem{
+
+.lastCounterItem {
   border: none;
 }
 
@@ -19,8 +20,6 @@
   letter-spacing: 0.02em;
   color: #cda274;
 }
-
-
 
 @media only screen and (max-width: 899px) {
   .countersSection {

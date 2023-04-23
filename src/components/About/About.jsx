@@ -1,7 +1,6 @@
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Fab } from "@mui/material";
 import React from "react";
 import styles from "./About.module.css";
-import CircularIcon from "../../HOC/CircularIcon/CircularIcon";
 import BtnWithArrow from "../BtnWithArrow/BtnWithArrow";
 import ParagraphLeftCenter from "../Paragraph/ParagraphLeftCenter";
 
@@ -21,7 +20,20 @@ const About = () => {
 
           <Grid container className={styles.callSection}>
             <Grid item>
-              <CircularIcon icon="./assets/images/Call.svg" />
+              {/* <CircularIcon icon="./assets/images/Call.svg" /> */}
+              <Fab
+                aria-label="add"
+                sx={{
+                  boxShadow: "0",
+                  background: "#F4F0EC",
+                  p: 5,
+                  "&:hover": {
+                    background: "#f4e7da",
+                  },
+                }}
+              >
+                <img src="./assets/images/Call.svg" alt="" />
+              </Fab>
             </Grid>
             <Grid item className={styles.callSectionRightSide}>
               <div>

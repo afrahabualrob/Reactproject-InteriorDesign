@@ -23,7 +23,7 @@ const Blog = ({ BlogName, BlogImage, BlogDate, qoute, id }) => {
             </Grid>
             <Grid item>
               <Fab
-                aria-label="add"
+                aria-label="more"
                 sx={{ boxShadow: "0", color: "#292F36", background: btncolor}}
               >
                 <ArrowForwardIosIcon sx={{ fontSize: 20 }} />
