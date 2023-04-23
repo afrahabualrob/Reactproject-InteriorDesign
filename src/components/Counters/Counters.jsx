@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Grid } from "@mui/material";
 import styles from "./Counters.module.css";
 import ParagraphCenter from "../Paragraph/ParagraphCenter";
+import './counters.css'
 
 const Counters = () => {
   const counters = [
@@ -10,6 +11,7 @@ const Counters = () => {
     { id: 3, number: "15", caption: "Active Project" },
     { id: 4, number: "95", caption: "Happy CUstomers" },
   ];
+  // let classes = i;
 
   return (
     <section className={styles.countersSection}>
@@ -18,7 +20,13 @@ const Counters = () => {
           {counters.map((count) => {
             let { id, number, caption } = count;
             return (
-              <Grid key={id} item xs={6} md={3} className={styles.counterItem}>
+              <Grid
+                key={id}
+                item
+                xs={6}
+                md={3}
+                className={id == 4 ? "lastCounterItem": "counterItem"}
+              >
                 <span className={styles.number}>{number}</span>
                 {/* <p className={styles.caption}>{caption}</p> */}
                 <ParagraphCenter content={caption} />

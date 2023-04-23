@@ -1,0 +1,7 @@
+.counterItem {
+  border-right: 1px solid #cda274;
+}
+
+.lastCounterItem {
+  border: none;
+}
