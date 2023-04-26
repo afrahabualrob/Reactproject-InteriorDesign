@@ -53,10 +53,10 @@
   padding: 12px 0;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 786px) {
   .footerItems {
     flex-wrap: wrap;
-    row-gap: 24px;
+    text-align: center;
   }
   .socialMedia img {
     padding-right: 24px;
@@ -66,7 +66,7 @@
   .pages,
   .services,
   .contact {
-    width: 47%;
+    width: 100%;
     font-size: 16px;
   }
 }
