@@ -3,7 +3,6 @@ import MainHeader from "../Headers/MainHeader/MianHeader";
 import SubHeader from "../Headers/SubHeader/SubHeader";
 import { Container, Grid } from "@mui/material";
 import ProjectItem from "./ProjectItem/ProjectItem";
-import styles from "./Projects.module.css";
 
 const Projects = () => {
   const projects = [
