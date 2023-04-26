@@ -20,7 +20,6 @@ const About = () => {
 
           <Grid container className={styles.callSection}>
             <Grid item>
-              {/* <CircularIcon icon="./assets/images/Call.svg" /> */}
               <Fab
                 aria-label="add"
                 sx={{
