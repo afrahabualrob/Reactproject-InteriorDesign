@@ -7,12 +7,12 @@ const ProjectItem = ({
   projectImg,
   projectName,
   projectCategory,
-  projectClassName,
+  id
 }) => {
   return (
     <div className={styles.projectItem}>
       <img
-        className={`styles.w + ${styles[projectClassName]}`}
+        className={id===1?styles["topRightBorder"]:id===2? styles["topLeftBorder"]:id===3?styles["buttomRightBorder"]:styles["buttomLeftBorder"]}
         src={projectImg}
         alt={projectName}
       />

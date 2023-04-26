@@ -12,28 +12,27 @@ const Projects = () => {
       imgSrc: "./assets/images/project1.png",
       name: "Modern Kitchan",
       category: "Decor / Artchitecture",
-      projectClassName: "topRightBorder",
+      
     },
     {
       id: 2,
       imgSrc: "./assets/images/project2.png",
       name: "Modern Kitchan",
       category: "Decor / Artchitecture",
-      projectClassName: "topLeftBorder",
     },
     {
       id: 3,
       imgSrc: "./assets/images/project3.png",
       name: "Modern Kitchan",
       category: "Decor / Artchitecture",
-      projectClassName: "buttomRightBorder",
+      
     },
     {
       id: 4,
       imgSrc: "./assets/images/project4.png",
       name: "Modern Kitchan",
       category: "Decor / Artchitecture",
-      projectClassName: "buttomLeftBorder",
+      
     },
   ];
 
@@ -52,14 +51,14 @@ const Projects = () => {
           columnSpacing={10}
         >
           {projects.map((project) => {
-            const { id, imgSrc, name, category, projectClassName } = project;
+            const { id, imgSrc, name, category } = project;
             return (
               <Grid item md={6} key={id}>
                 <ProjectItem
+                id={id}
                   projectImg={imgSrc}
                   projectName={name}
                   projectCategory={category}
-                  projectClassName={projectClassName}
                 />
               </Grid>
             );
